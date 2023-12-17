@@ -3,7 +3,9 @@
 <html lang="en">
 
 <head>
-
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,7 +19,7 @@
     <link rel="shortcut icon" href="{% static './images/stambh_logo.png' %}" type="image/png">
 
     <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="{% static './css/bootstrap.min.css' %}">
+    <!-- <link rel="stylesheet" href="{% static './css/bootstrap.min.css' %}"> -->
 
     <!--====== Flaticon css ======-->
     <link rel="stylesheet" href="{% static './css/flaticon.css' %}">
