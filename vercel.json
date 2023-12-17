@@ -19,11 +19,9 @@
         "src": "/static/(.*)",
         "dest": "/static/$1"
       },
-
       {
         "src": "/(.*)",
         "dest": "FD/wsgi.py"
       }
-    ],
-    "outputDirectory": "staticfiles_build"
+    ]
   }
